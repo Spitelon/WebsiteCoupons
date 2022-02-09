@@ -1,0 +1,112 @@
+body{
+
+	background:url('../css/Pozadina1.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.main-section {
+	margin: 0 auto;
+	margin-top:55px;
+	padding: 0;
+	position: absolute;
+}
+
+.modal-content {
+	background-color: #434e5a;
+	opacity: .8;
+	padding: 18px 18px;
+	border-radius: 10px;
+}
+
+.modal-content button {
+	width: 40%;
+	margin: 5px 15px 25px;
+}
+
+.btn-success {
+	background-color: #fff5c0;
+	font-size: 19px;
+	border-radius: 5px;
+	padding: 7px 14px;
+	border: 1px solid #fc8621;
+	color: black;
+
+}
+
+.btn-success:hover {
+	background-color: #fc8621;
+	border: 1px solid #fff5c0;
+
+}
+
+.modal-content h2 {
+	color: white;
+	margin-bottom: 40px;
+	margin-top: -70px;
+}
+
+
+.logo-img img{
+	height: 200px;
+	width: 200px;
+}
+
+.logo-img {
+	margin-top: -100px;
+	margin-bottom: 70px;
+}
+
+
+.form-group input {
+	margin: 5px 80px 25px;
+	height: 42px;
+	border-radius: 5px;
+	border: 0;
+	font-size: 18px;
+	letter-spacing: 2px;
+	width: 280px;
+    
+}
+
+.col-lg-8 input {
+	padding-left: 54px;
+}
+
+
+
+.form-group i { 
+  position: absolute; 
+  left: 105px; 
+  margin-bottom: 15px;
+  padding: 13px; 
+  color: orange;  
+ } 
+
+ .nemam {
+	padding: 5px 0 25px;
+}
+.nemam a {
+	color: #fc8621;
+}
+
+.col-lg-4 select  {
+	background-color: white;
+	border: 1px solid #fc8621;
+	color: black;
+	font-size: 18px;
+	border-radius: 5px;
+	padding: 7px 15px;
+	width: 140px;
+	margin: 5px 80px 25px;
+	}
+
+.col-lg-4 input {
+   width: 129px;
+   display: inline;
+
+}
+
+.btn-success a {
+ text-decoration: none;
+ color: black;
+}

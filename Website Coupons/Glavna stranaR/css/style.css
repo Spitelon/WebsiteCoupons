@@ -1,0 +1,122 @@
+.landing {
+   position: relative;
+   width: 100%;
+   display: table;
+   z-index: -1;
+   height: 50vh;
+}
+
+.home-inner {
+	background-image: url('../css/Pozadina2.jpg');
+	display: table;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+.home-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.navbar-brand img{
+ height: 120px;
+ padding-left: 20px;
+}
+
+.navbar-light {
+	padding: 12px 16px;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+.navbar-nav li {
+	padding-right: 120px;
+    
+}
+
+.navbar-nav .nav-link {
+	padding-top: 12px;
+	color: black!important;
+}
+
+.navbar-nav .nav-link:hover {
+	color: #fc8621!important;
+}
+
+
+.caption {
+	z-index: 1;
+	position: absolute;
+	top: 40%;
+	text-align: center;
+}
+
+
+
+.form-inline input {
+  border-bottom: 1px solid #fc8621;
+  box-shadow: 0 1px 0 0 #fc8621;
+  padding-left: 10px;
+}
+
+.form-inline {
+	color: #fc8621;
+    padding-top: 20px;
+    width: 100%
+
+}
+
+.card-body {
+	background-color:#dddddd;
+
+}
+.card-body strong {
+	color: #db6400;
+	
+}
+
+.footer {
+	background-color: #565b61;
+}
+
+.footer img {
+	height: 120px;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+ul.social {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin: 0 auto;
+	max-width: 340px;
+}
+
+ul.social li {
+	margin: 0 auto;
+	display: inline;
+	padding-right: 40px;
+}
+
+.footer .svg-inline--fa {
+font-size: 40px;
+}
+.footer .svg-inline--fa:hover {
+color: #fc8621;
+}
+

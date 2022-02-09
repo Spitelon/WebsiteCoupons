@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nova ponuda</title>
+
+<meta charset="utf-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md navbar-light bg-light  sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="css/logo.png"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" 
+		data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="../Glavna stranaP/Glavna stranaP.html"><i class="fas fa-home"></i>Vase ponude</a>
+        <li class="nav-item ">
+          <a class="nav-link" href="../Nova ponuda/Nova ponuda.html">Nova ponuda</a>
+        <li class="nav-item ">
+          <a class="nav-link" href="../Izmena lozinke/Izmena lozinke.html">Izmena lozinke</a>
+          <li class="nav-item ">
+          <a class="nav-link" href="../Prvi izbor/Prvi izbor.html">Odjava</a>
+				 </li>
+				</li>
+			  </li>
+		   </li>
+
+			</ul>
+		</div>
+	</div>
+</nav>
+<!--kraj gornjeg menija-->
+
+<div class="landing">
+	<div class="home-wrap">
+		<div class="home-inner">
+			
+			
+		</div>
+	</div>
+</div>
+
+<!--kraj landing slike-->
+
+
+<div class="col-12 col-md-12 caption">
+	<h1 class="text-light text-uppercase">Vase ponude</h1>
+	<h3 class="text-light text-uppercase">Pregled,izmene i arhiviranje ponuda </h3>
+    <form class="form-inline justify-content-center">
+    <i class="fas fa-search"></i>
+    <input class="form-control form-control-sm ml-3 w-50 " type="text" placeholder="Search"
+    aria-label="Search">
+</form>
+</div>
+<!--kraj landing sadrzaja-->
+
+<div class="jumbotron text-center pb-5 mb-0">
+   
+
+<div class="modal-dialog text-center ">
+  <div class="col-sm-12 main-section">
+    <div class="modal-content">
+      <div class="col-12 logo-img">
+        <img src="css/logo.png" alt="logo">
+      </div>
+            <h2>Nova ponuda</h2>
+             <div class="container">
+              <div class="col-12 form-input ">
+             <form class="form-group ">
+              
+              <textarea rows="4" cols="45"  name="naziv" placeholder="Naziv ponude (do 50 karaktera)" class="message" required></textarea>
+                <textarea rows="6" cols="45" name="opis" placeholder="Opis ponude (do 1000 karaktera)" class="message" required></textarea>
+              
+              <div class="row pt-4 pb-1 justify-content-center">
+                <input type="number" class="form-control" placeholder="Cena">
+                <h4>Din.</h4>
+              </div>
+
+              <h4>Popust ?:</h4>
+              <div class="row pt-3 pb-1 justify-content-center">
+              <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">DA</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">NE</label>
+
+
+</div>
+
+</div>
+
+
+
+
+
+     <h4>Datum Trajanja Popusta:</h4>
+<div class="row pt-4 pb-1 justify-content-center">
+                <h4 class="oddo">Od:</h4>
+                <input type="date" class="form-control" placeholder="Cena">
+                <h4 class="oddo">Do:</h4>
+                <input type="date" class="form-control" placeholder="Cena">
+                
+              </div>
+
+            <div class="row pt-4 pb-1 justify-content-center">
+                
+               <input type="number" class="form-control" placeholder="Popust">
+                <h4 class="oddo">%.</h4>
+            </div>
+            <h4>Dogadjaj:</h4>
+
+<div class="row pt-3 pb-1 justify-content-center">
+              <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">DA</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">NE</label>
+
+
+</div>
+
+</div>
+
+<h4>Mesto Odrzavanja Dogadjaja:</h4>
+                <div class="pt-4 justify-content-center ">
+                <select id="city" name="city" placeholder="Grad">
+                        <option value="australia">Beograd</option>
+                        <option value="canada">Novi Sad</option>
+                        <option value="usa">Valjevo</option>
+                    </select>
+                       </div>
+                
+             
+
+               <h4>Datum Dogadjaja:</h4>
+                <div class="row pt-4 pb-1 justify-content-center">
+                <input type="date" class="form-control" placeholder="Datum">
+                </div>
+
+              <h4>Vreme Pocetka i Zavrsetka:</h4>
+              <div class="row pt-4 pb-1 justify-content-center">
+                <h4 class="oddo">Od:</h4>
+                <input type="number" class="form-control" placeholder="Sati">
+                <h4 class="oddo">Do:</h4>
+                <input type="number" class="form-control" placeholder="Sati">
+                
+              </div>
+
+</div>
+    
+              
+            
+              
+              
+              
+             <button type="button" class="btn btn-success"><a href="../Glavna stranaP/Glavna stranaP.html">Potvrdi</button></a>
+
+        
+</form>
+</div>
+</div>
+</div>
+</div>
+
+<h4>Slika ponude</h4>
+<div class="container">
+  
+    <div class="col-lg-12  ">
+      <h5>Prevucite sliku ovde</h5>
+     
+        <i class="fas fa-images"></i>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+   </div>
+
+<!--Nove ponude forma-->
+
+
+  <div class="container-fluid footer">
+  	<div class="row pt-4 pb-5 justify-content-center">
+  		
+  		<div class="col-sm-12 col-md-9 col-lg-6 text-light text-center">
+  			<img src="css/logo.png" alt="logo" class="my-1">
+  			<p>Aplikacija za pregled i rezervaciju kupona za akcijske ponude</p>
+  			<ul class="social pt-3">
+  				<li><a href=""><i class="fab fa-facebook-square"></i></a>
+  				</li>
+  				<li><a href=""><i class="fab fa-twitter-square"></i></a>
+  				</li>
+  				<li><a href=""><i class="fab fa-instagram"></i></a>
+  				</li>
+  				<li><a href=""><i class="fab fa-youtube-square"></i></a>
+  				</li>
+  				<li><a href=""><i class="fab fa-linkedin"></i></a>
+  				</li>
+</ul>
+
+  		</div>
+
+
+<hr class="socket w-100 mt-5">
+<p class="mb-0 text-light">
+	&copy; <a href="#" target="_blank">All rights reserved Kosta Divnic</a>
+</p>
+
+
+
+
+  	</div>
+  </div>
+
+
+
+
+</body>
+
+
+
+
+</html>
